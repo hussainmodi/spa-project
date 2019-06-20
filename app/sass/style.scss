@@ -1,0 +1,341 @@
+@mixin font-family{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+
+*{
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #000;
+    color:#ccc;
+    padding: 20px;
+    p{
+        float: left;
+        @include font-family;
+        font-size: 18px;
+        padding: 8px;
+        span{
+            color: #ff4700;
+        }
+        .img_right,.img_left{
+            display: none;
+        }
+    }
+    ul{
+        list-style: none;
+        float: right;
+        li{
+            float: left;
+            padding-top:7px;
+            a{
+                color:#ccc;
+                text-decoration: none;
+                @include font-family;
+                padding-right: 30px;
+                margin-top: 6px;
+            }
+        }
+        .menu_item_5{
+            background-color: #ff4700;
+            text-align: center;
+            padding: 6px;
+            border-radius: 20px;
+        }
+    }
+}
+
+.banner{
+    width:100%;
+    background-image: url('C:/Users/Admin/workspace/axelerant-project/app/images/banner.jpg');
+    background-repeat: no-repeat;
+    color:#fff;
+    padding:100px 0 200px 0;
+    text-align: center;    
+    font-weight: 600;
+    font-size: 2rem;
+    @include font-family;
+}
+
+.cell-3,.cell-4,.cell-5{
+    border:1px solid #404040;
+}
+
+@for $i from 1 through 7{    
+    .cell-#{$i}{
+        $equ:93%/7;
+        width: $equ;        
+        height:auto;
+        float: left;
+        box-sizing: border-box;
+        padding: 25px;
+        margin-right: 10px;
+        border-radius: 5px;
+        p{
+            margin-top: 10px;
+            font-size:1rem;
+        }   
+        img{
+            width: auto;
+            height: auto;
+            margin: 0px auto;
+
+        }
+    }
+}
+
+.content,.map{
+    box-sizing: border-box;
+    width: 50%;
+    float: left;
+    padding: 50px;
+    align-content: stretch;
+    p{
+        @include font-family;
+        color: #343434;
+        font-weight: 400;
+        font-size: 14px;
+        line-height:15pt;
+        span{
+            font-size: 22px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            line-height:20pt;
+        }
+    }
+}
+
+.tstmnl{
+    padding: 50px;
+    text-align: center;
+    background-color: #f7f7f7;
+    color: #333333;
+    h2{
+        font-size: 30px;
+    }
+    .tstmnl_grid_1,.tstmnl_grid_2,.tstmnl_grid_3{
+        width: 33%;
+        // border: 1px solid red;
+        box-sizing: border-box;
+        padding: 20px;
+        float: left;
+        .tstmnl_grid_img{
+            background-image: url('C:/Users/Admin/workspace/axelerant-project/app/images/testimonial.png');            
+            background-repeat: no-repeat;
+            // background-size: cover;
+            background-position:0 100%;
+            padding: 30px;
+            p{
+                font-size: 14px;
+                color:#333333;
+                @include font-family;
+            }
+        }
+        .tstmnl_grid_client{
+            img{
+                float: left;
+            }
+            p{
+                float: left;
+                text-align: left;
+                margin: 15px;
+                .client_name{
+                    font-size: 16px;
+                    color: #404040;
+                    font-weight: 600;
+                    @include font-family;
+                }
+                .client_post{
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: #ccc;
+                    @include font-family;
+                }
+            }
+            
+        }
+    }
+}
+
+.work_with_us{
+    background-image: url('C:/Users/Admin/workspace/axelerant-project/app/images/work_with_us.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:0 100%;
+    p{
+        text-align: center;
+        @include font-family;
+        color:#fff;
+        font-size: 28px;
+        span{
+            font-size: 22px;
+        }   
+    }
+    .work_with_us_form{
+        .col-2{
+            width: 15%;
+            box-sizing: border-box;
+            float: left;
+            visibility: none;
+        }
+        .col-8{
+            width: 70%;
+            // border: 1px solid red;
+            box-sizing: border-box;
+            // float: left;
+            display: flex;
+            justify-content: space-around;
+            form{
+                width: 100%;
+            
+            input{
+                justify-content: space-around;
+                padding: 10px;
+                border-radius: 5px;
+                width:28%;
+                border: none;
+                @include font-family;
+            }
+            textarea{
+                border-radius: 5px;
+                width: 100%;
+                padding: 10px;
+                @include font-family;
+            }
+            button{
+                border-radius: 18px;
+                background-color:#ff4700;
+                color: #fff;
+                text-align: center;
+                padding:8px;
+                width:10%;
+                border:none;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-left: 45%;
+                @include font-family;                
+            }
+          }
+        }
+    }
+}
+
+.footer{
+    background-color: #000;
+    margin-top: -1px;
+    .footer_copyright{
+        padding:40px 0 40px 40px;
+        color:#ccc;
+        float: left;
+        font-size: 14px;
+        width: 50%;
+        box-sizing: border-box;
+        @include font-family;
+    }
+    .footer__social_links{
+        float: left;
+        width: 50%;
+        @include font-family;
+        color:#ccc;
+        font-size: 14px;
+        text-align: right;
+        ul{
+            list-style: none;
+            float:right;
+            padding:40px 20px 40px 40px;
+            li{
+                float: left;
+                margin-right: 5px;
+                img{
+                    color:#fff;
+                }
+            }
+        }
+    }
+}
+
+$map:(580:7);
+
+@each $key,$val in $map{
+    @media all and(max-width:$key+px){
+
+        @for $i from 1 through $val{
+            .banner{
+                margin: 0px auto;
+                padding:100px 0 150px 0;
+            }
+            .cell-1,.cell-2,.cell-6,.cell-7{
+                display: none;
+            }
+            .cell-#{$i}{
+            width:95%;
+            height:auto;
+            margin-bottom: 10px;
+            margin-left: 2%;
+            img{
+                float: left;
+            }
+            p{
+                float: left;
+                margin: -15px 0 0 20px;
+                padding: 0;
+            }
+            }
+        }
+        .content,.map{
+            width: 100%;
+            padding: 10px;
+            margin-top: 0px;
+        }
+        .tstmnl{
+        .tstmnl_grid_1{
+            width: 100%;
+        }
+    }
+        .tstmnl_grid_2,.tstmnl_grid_3{
+            display: none;
+        }
+        .work_with_us .work_with_us_form .col-8 form input {
+            width:100%;
+            margin-bottom: 5px;
+        }
+        .work_with_us .work_with_us_form .col-8 form button {
+            width: auto;
+            margin-left: 40%;
+        }
+        .footer{
+            .footer_copyright{                
+                width: 100%;
+                float: none;
+                text-align: center;  
+                margin: 0;padding:20px;              
+            }
+            .footer__social_links{
+                width: 100%;
+                margin: 0 auto;
+                ul{
+                    margin-right: 25%;
+                    padding:20px;
+                }
+            }
+        }
+        header{
+            P{
+                width: 100%;
+                text-align: center;
+                .img_right{
+                    display: block;
+                    float:right;
+                }
+                .img_left{
+                    display: block;
+                    float:left;
+                }
+            }
+            ul{
+                display: none;                
+            }
+        }
+    }
+}

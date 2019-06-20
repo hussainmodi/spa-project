@@ -1,0 +1,446 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; }
+
+header {
+  background-color: #000;
+  color: #ccc;
+  padding: 20px; }
+  header p {
+    float: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    padding: 8px; }
+    header p span {
+      color: #ff4700; }
+    header p .img_right, header p .img_left {
+      display: none; }
+  header ul {
+    list-style: none;
+    float: right; }
+    header ul li {
+      float: left;
+      padding-top: 7px; }
+      header ul li a {
+        color: #ccc;
+        text-decoration: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        padding-right: 30px;
+        margin-top: 6px; }
+    header ul .menu_item_5 {
+      background-color: #ff4700;
+      text-align: center;
+      padding: 6px;
+      border-radius: 20px; }
+
+.banner {
+  width: 100%;
+  background-image: url("C:/Users/Admin/workspace/axelerant-project/app/images/banner.jpg");
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 100px 0 200px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.cell-3, .cell-4, .cell-5 {
+  border: 1px solid #404040; }
+
+.cell-1 {
+  width: 13.28571%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+  margin-right: 10px;
+  border-radius: 5px; }
+  .cell-1 p {
+    margin-top: 10px;
+    font-size: 1rem; }
+  .cell-1 img {
+    width: auto;
+    height: auto;
+    margin: 0px auto; }
+
+.cell-2 {
+  width: 13.28571%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+  margin-right: 10px;
+  border-radius: 5px; }
+  .cell-2 p {
+    margin-top: 10px;
+    font-size: 1rem; }
+  .cell-2 img {
+    width: auto;
+    height: auto;
+    margin: 0px auto; }
+
+.cell-3 {
+  width: 13.28571%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+  margin-right: 10px;
+  border-radius: 5px; }
+  .cell-3 p {
+    margin-top: 10px;
+    font-size: 1rem; }
+  .cell-3 img {
+    width: auto;
+    height: auto;
+    margin: 0px auto; }
+
+.cell-4 {
+  width: 13.28571%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+  margin-right: 10px;
+  border-radius: 5px; }
+  .cell-4 p {
+    margin-top: 10px;
+    font-size: 1rem; }
+  .cell-4 img {
+    width: auto;
+    height: auto;
+    margin: 0px auto; }
+
+.cell-5 {
+  width: 13.28571%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+  margin-right: 10px;
+  border-radius: 5px; }
+  .cell-5 p {
+    margin-top: 10px;
+    font-size: 1rem; }
+  .cell-5 img {
+    width: auto;
+    height: auto;
+    margin: 0px auto; }
+
+.cell-6 {
+  width: 13.28571%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+  margin-right: 10px;
+  border-radius: 5px; }
+  .cell-6 p {
+    margin-top: 10px;
+    font-size: 1rem; }
+  .cell-6 img {
+    width: auto;
+    height: auto;
+    margin: 0px auto; }
+
+.cell-7 {
+  width: 13.28571%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 25px;
+  margin-right: 10px;
+  border-radius: 5px; }
+  .cell-7 p {
+    margin-top: 10px;
+    font-size: 1rem; }
+  .cell-7 img {
+    width: auto;
+    height: auto;
+    margin: 0px auto; }
+
+.content, .map {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding: 50px;
+  align-content: stretch; }
+  .content p, .map p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #343434;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 15pt; }
+    .content p span, .map p span {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      line-height: 20pt; }
+
+.tstmnl {
+  padding: 50px;
+  text-align: center;
+  background-color: #f7f7f7;
+  color: #333333; }
+  .tstmnl h2 {
+    font-size: 30px; }
+  .tstmnl .tstmnl_grid_1, .tstmnl .tstmnl_grid_2, .tstmnl .tstmnl_grid_3 {
+    width: 33%;
+    box-sizing: border-box;
+    padding: 20px;
+    float: left; }
+    .tstmnl .tstmnl_grid_1 .tstmnl_grid_img, .tstmnl .tstmnl_grid_2 .tstmnl_grid_img, .tstmnl .tstmnl_grid_3 .tstmnl_grid_img {
+      background-image: url("C:/Users/Admin/workspace/axelerant-project/app/images/testimonial.png");
+      background-repeat: no-repeat;
+      background-position: 0 100%;
+      padding: 30px; }
+      .tstmnl .tstmnl_grid_1 .tstmnl_grid_img p, .tstmnl .tstmnl_grid_2 .tstmnl_grid_img p, .tstmnl .tstmnl_grid_3 .tstmnl_grid_img p {
+        font-size: 14px;
+        color: #333333;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+    .tstmnl .tstmnl_grid_1 .tstmnl_grid_client img, .tstmnl .tstmnl_grid_2 .tstmnl_grid_client img, .tstmnl .tstmnl_grid_3 .tstmnl_grid_client img {
+      float: left; }
+    .tstmnl .tstmnl_grid_1 .tstmnl_grid_client p, .tstmnl .tstmnl_grid_2 .tstmnl_grid_client p, .tstmnl .tstmnl_grid_3 .tstmnl_grid_client p {
+      float: left;
+      text-align: left;
+      margin: 15px; }
+      .tstmnl .tstmnl_grid_1 .tstmnl_grid_client p .client_name, .tstmnl .tstmnl_grid_2 .tstmnl_grid_client p .client_name, .tstmnl .tstmnl_grid_3 .tstmnl_grid_client p .client_name {
+        font-size: 16px;
+        color: #404040;
+        font-weight: 600;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      .tstmnl .tstmnl_grid_1 .tstmnl_grid_client p .client_post, .tstmnl .tstmnl_grid_2 .tstmnl_grid_client p .client_post, .tstmnl .tstmnl_grid_3 .tstmnl_grid_client p .client_post {
+        font-weight: 400;
+        font-size: 12px;
+        color: #ccc;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.work_with_us {
+  background-image: url("C:/Users/Admin/workspace/axelerant-project/app/images/work_with_us.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 100%; }
+  .work_with_us p {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #fff;
+    font-size: 28px; }
+    .work_with_us p span {
+      font-size: 22px; }
+  .work_with_us .work_with_us_form .col-2 {
+    width: 15%;
+    box-sizing: border-box;
+    float: left;
+    visibility: none; }
+  .work_with_us .work_with_us_form .col-8 {
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around; }
+    .work_with_us .work_with_us_form .col-8 form {
+      width: 100%; }
+      .work_with_us .work_with_us_form .col-8 form input {
+        justify-content: space-around;
+        padding: 10px;
+        border-radius: 5px;
+        width: 28%;
+        border: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      .work_with_us .work_with_us_form .col-8 form textarea {
+        border-radius: 5px;
+        width: 100%;
+        padding: 10px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+      .work_with_us .work_with_us_form .col-8 form button {
+        border-radius: 18px;
+        background-color: #ff4700;
+        color: #fff;
+        text-align: center;
+        padding: 8px;
+        width: 10%;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 45%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+
+.footer {
+  background-color: #000;
+  margin-top: -1px; }
+  .footer .footer_copyright {
+    padding: 40px 0 40px 40px;
+    color: #ccc;
+    float: left;
+    font-size: 14px;
+    width: 50%;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; }
+  .footer .footer__social_links {
+    float: left;
+    width: 50%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ccc;
+    font-size: 14px;
+    text-align: right; }
+    .footer .footer__social_links ul {
+      list-style: none;
+      float: right;
+      padding: 40px 20px 40px 40px; }
+      .footer .footer__social_links ul li {
+        float: left;
+        margin-right: 5px; }
+        .footer .footer__social_links ul li img {
+          color: #fff; }
+
+@media all and (max-width: 580px) {
+  .banner {
+    margin: 0px auto;
+    padding: 100px 0 150px 0; }
+  .cell-1, .cell-2, .cell-6, .cell-7 {
+    display: none; }
+  .cell-1 {
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 2%; }
+    .cell-1 img {
+      float: left; }
+    .cell-1 p {
+      float: left;
+      margin: -15px 0 0 20px;
+      padding: 0; }
+  .banner {
+    margin: 0px auto;
+    padding: 100px 0 150px 0; }
+  .cell-1, .cell-2, .cell-6, .cell-7 {
+    display: none; }
+  .cell-2 {
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 2%; }
+    .cell-2 img {
+      float: left; }
+    .cell-2 p {
+      float: left;
+      margin: -15px 0 0 20px;
+      padding: 0; }
+  .banner {
+    margin: 0px auto;
+    padding: 100px 0 150px 0; }
+  .cell-1, .cell-2, .cell-6, .cell-7 {
+    display: none; }
+  .cell-3 {
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 2%; }
+    .cell-3 img {
+      float: left; }
+    .cell-3 p {
+      float: left;
+      margin: -15px 0 0 20px;
+      padding: 0; }
+  .banner {
+    margin: 0px auto;
+    padding: 100px 0 150px 0; }
+  .cell-1, .cell-2, .cell-6, .cell-7 {
+    display: none; }
+  .cell-4 {
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 2%; }
+    .cell-4 img {
+      float: left; }
+    .cell-4 p {
+      float: left;
+      margin: -15px 0 0 20px;
+      padding: 0; }
+  .banner {
+    margin: 0px auto;
+    padding: 100px 0 150px 0; }
+  .cell-1, .cell-2, .cell-6, .cell-7 {
+    display: none; }
+  .cell-5 {
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 2%; }
+    .cell-5 img {
+      float: left; }
+    .cell-5 p {
+      float: left;
+      margin: -15px 0 0 20px;
+      padding: 0; }
+  .banner {
+    margin: 0px auto;
+    padding: 100px 0 150px 0; }
+  .cell-1, .cell-2, .cell-6, .cell-7 {
+    display: none; }
+  .cell-6 {
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 2%; }
+    .cell-6 img {
+      float: left; }
+    .cell-6 p {
+      float: left;
+      margin: -15px 0 0 20px;
+      padding: 0; }
+  .banner {
+    margin: 0px auto;
+    padding: 100px 0 150px 0; }
+  .cell-1, .cell-2, .cell-6, .cell-7 {
+    display: none; }
+  .cell-7 {
+    width: 95%;
+    height: auto;
+    margin-bottom: 10px;
+    margin-left: 2%; }
+    .cell-7 img {
+      float: left; }
+    .cell-7 p {
+      float: left;
+      margin: -15px 0 0 20px;
+      padding: 0; }
+  .content, .map {
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px; }
+  .tstmnl .tstmnl_grid_1 {
+    width: 100%; }
+  .tstmnl_grid_2, .tstmnl_grid_3 {
+    display: none; }
+  .work_with_us .work_with_us_form .col-8 form input {
+    width: 100%;
+    margin-bottom: 5px; }
+  .work_with_us .work_with_us_form .col-8 form button {
+    width: auto;
+    margin-left: 40%; }
+  .footer .footer_copyright {
+    width: 100%;
+    float: none;
+    text-align: center;
+    margin: 0;
+    padding: 20px; }
+  .footer .footer__social_links {
+    width: 100%;
+    margin: 0 auto; }
+    .footer .footer__social_links ul {
+      margin-right: 25%;
+      padding: 20px; }
+  header P {
+    width: 100%;
+    text-align: center; }
+    header P .img_right {
+      display: block;
+      float: right; }
+    header P .img_left {
+      display: block;
+      float: left; }
+  header ul {
+    display: none; } }
